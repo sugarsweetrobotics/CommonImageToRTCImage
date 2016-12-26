@@ -3,7 +3,7 @@ set(standalone_srcs CommonImageToRTCImageComp.cpp)
 
 
 find_package(OpenCV REQUIRED)
-set(RTMCAMERA_LIBRARY "rtmCamera112_vc14")
+set(RTMCAMERA_LIBRARY "rtmCamera112_vc14d")
 
 
 if (DEFINED OPENRTM_INCLUDE_DIRS)
